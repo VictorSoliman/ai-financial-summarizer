@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables — never commit real API keys
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit Cloud secrets (keep the template, not the real file)
+.streamlit/secrets.toml
+
+# macOS system file
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
